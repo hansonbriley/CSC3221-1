@@ -2,8 +2,13 @@
   "name": "csc3221_1",
   "version": "0.0.1",
   "description": "Requirements for Assignment #1",
+
+  "engines": {
+	  "node": "12.x"
+  },
   "main": "app.js",
   "scripts": {
+    "start": "node add.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,7 +16,8 @@
     "url": "git+https://github.com/hansonbriley/CSC3221_1.git"
   },
   "keywords": [
-    "nodejs"
+    "nodejs",
+    "heroku"
   ],
   "author": "Briley Hanson",
   "license": "MIT",
