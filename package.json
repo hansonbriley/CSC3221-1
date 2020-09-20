@@ -1,28 +1,26 @@
 {
-  "name": "csc3221_1",
-  "version": "0.0.1",
-  "description": "Requirements for Assignment #1",
-
+  "name": "csc3221-1",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./bin/www",
   "engines": {
-	  "node": "12.x"
+    "node": "12.x"
   },
-  "main": "app.js",
   "scripts": {
-    "start": "node add.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hansonbriley/CSC3221_1.git"
+    "start": "node ./bin/www"
   },
   "keywords": [
     "nodejs",
     "heroku"
   ],
-  "author": "Briley Hanson",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/hansonbriley/CSC3221_1/issues"
-  },
-  "homepage": "https://github.com/hansonbriley/CSC3221_1#readme"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11"
+  }
 }
+
+
